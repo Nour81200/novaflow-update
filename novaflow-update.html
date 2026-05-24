@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+--obsidian:#0a0a0b;--obsidian-1:#111113;--obsidian-2:#18181c;--obsidian-3:#1f1f24;
+--gold:#c9a84c;--gold-light:#e2c97e;--gold-dim:#8a6c2a;--gold-glow:rgba(201,168,76,0.12);
+--text-primary:#f0ede8;--text-secondary:#9b9490;--text-muted:#5a5650;
+--border:#2a2a30;--border-gold:rgba(201,168,76,0.25);
+--font-display:'Cormorant Garamond',serif;--font-body:'DM Sans',sans-serif;
+}
+body{font-family:var(--font-body);color:var(--text-primary);background:var(--obsidian);line-height:1.6}
+section.booking{padding:8rem 0;background:var(--obsidian)}
+.container{max-width:1200px;margin:0 auto;padding:0 2.5rem}
+.section-label{font-size:0.7rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem;display:block}
+.booking-copy h2{font-family:var(--font-display);font-size:clamp(2.2rem,4vw,3.8rem);font-weight:300;line-height:1.1;margin-bottom:1.2rem}
+.booking-copy h2 em{font-style:italic;color:var(--gold-light)}
+.booking-copy > p{color:var(--text-secondary);font-size:0.95rem;line-height:1.75;font-weight:300;max-width:480px;margin-bottom:2rem}
+.booking-perks{list-style:none;margin-bottom:2.8rem;display:flex;flex-direction:column;gap:0.5rem}
+.booking-perks li{font-size:0.85rem;color:var(--text-secondary);display:flex;align-items:center;gap:0.8rem;font-weight:300}
+.booking-perks li::before{content:'◆';color:var(--gold);font-size:0.45rem;flex-shrink:0}
+.btn-primary{display:inline-block;font-family:var(--font-body);font-size:0.85rem;letter-spacing:0.08em;text-transform:uppercase;background:var(--gold);color:#0a0a0b;border:none;padding:0.9rem 2.6rem;cursor:pointer;font-weight:500;transition:all 0.2s;text-decoration:none}
+.btn-primary:hover{background:var(--gold-light);transform:translateY(-1px)}
+.section-divider{width:100%;height:1px;background:linear-gradient(90deg,transparent,var(--border),transparent);margin-top:8rem}
+</style>
+</head>
+<body>
+<section class="booking" id="booking">
+<div class="container">
+<div class="booking-copy">
+<span class="section-label">Book a Call</span>
+<h2>Start Your<br><em>AI Growth System</em><br>This Week</h2>
+<p>30-minute strategy call. No pitch. No pressure. We'll map out exactly where automation can generate you the most revenue — and whether we're the right fit.</p>
+<ul class="booking-perks">
+<li>Free business automation audit</li>
+<li>Custom growth roadmap</li>
+<li>ROI projection for your niche</li>
+<li>No commitment required</li>
+</ul>
+<a href="https://cal.com/nour-atef-oyiyau/discovery-call" target="_blank" class="btn-primary">Schedule Now →</a>
+</div>
+</div>
+</section>
+<div class="section-divider"></div>
+</body>
+</html>
